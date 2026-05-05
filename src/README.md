@@ -1,18 +1,30 @@
+# Sistema de Gerenciamento de Funcionários
+
+Aplicação em **TypeScript** que simula o gerenciamento de funcionários de uma empresa,
+permitindo cadastrar, atualizar salários e consultar funcionários pelo RH.
+
 ---
 
-## ▶️ Como Executar
+## Estrutura do Projeto
+
+    src/
+    ├── Funcionario.ts
+    ├── Empresa.ts
+    └── index.ts
+    README.md
+    tsconfig.json
+
+---
+
+## Como Executar
 
 ### Pré-requisitos
 - Node.js (v18+)
-- TypeScript instalado globalmente: `npm install -g typescript ts-node`
+- TypeScript: `npm install -g typescript ts-node`
 
 ### Passos
 
 ```bash
-# 1. Instalar dependências (se houver)
-npm install
-
-# 2. Compilar e executar diretamente com ts-node
 npx ts-node src/index.ts
 ```
 
@@ -25,7 +37,7 @@ node dist/index.js
 
 ---
 
-## 🧪 Testes Realizados
+## Testes Realizados
 
 | Cenário | Resultado esperado |
 |---|---|
