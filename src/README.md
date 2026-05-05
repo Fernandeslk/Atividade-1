@@ -12,7 +12,6 @@ permitindo cadastrar, atualizar salários e consultar funcionários pelo RH.
     ├── Empresa.ts
     └── index.ts
     README.md
-    tsconfig.json
 
 ---
 
